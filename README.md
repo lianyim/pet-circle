@@ -13,7 +13,6 @@
 - npm
 - vue
 - element-ui
-- javascript
 #### 后端
 - springboot
 - spring security
