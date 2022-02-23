@@ -1,0 +1,7 @@
+
+.select-picker.data-v-7178c756 {display: flex;flex-direction: row;align-items: center;flex-wrap: nowrap;font-size: 14px;line-height: 38px;padding: 0 5px;overflow: hidden;text-indent:4px;}
+.select-picker-border.data-v-7178c756{border: 1px solid #e5e5e5;border-radius: 5px;}
+.select-picker-arrow-area.data-v-7178c756 {position: relative;width: 20px;margin-left: auto;display: flex;justify-content: center;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: center;transform-origin: center;}
+.select-picker-arrow.data-v-7178c756{width:7px;height:7px;border-left:1px solid #999;border-bottom:1px solid #999}
+.placeholder.default.data-v-7178c756{color: grey;text-indent: 0px;}
+

@@ -1,0 +1,712 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #e5e5e5;
+}
+@font-face {
+  font-family: "HMfont-home";
+  src: url("data:application/x-font-woff2;charset=utf-8;base64,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") format("woff2");
+}
+.icon {
+  font-family: "HMfont-home" !important;
+  font-size: 56rpx;
+  font-style: normal;
+  color: #333;
+}
+.icon.biaoqing:before {
+  content: "\e797";
+}
+.icon.jianpan:before {
+  content: "\e7b2";
+}
+.icon.yuyin:before {
+  content: "\e805";
+}
+.icon.tupian:before {
+  content: "\e639";
+}
+.icon.chehui:before {
+  content: "\e904";
+}
+.icon.luyin:before {
+  content: "\e905";
+}
+.icon.luyin2:before {
+  content: "\e677";
+}
+.icon.other-voice:before {
+  content: "\e667";
+}
+.icon.my-voice:before {
+  content: "\e906";
+}
+.icon.hongbao:before {
+  content: "\e626";
+}
+.icon.tupian2:before {
+  content: "\e674";
+}
+.icon.paizhao:before {
+  content: "\e63e";
+}
+.icon.add:before {
+  content: "\e655";
+}
+.icon.close:before {
+  content: "\e607";
+}
+.icon.to:before {
+  content: "\e675";
+}
+.hidden {
+  display: none !important;
+}
+.popup-layer {
+  transition: all .15s linear;
+  width: 96%;
+  height: 42vw;
+  padding: 20rpx 2%;
+  background-color: #f3f3f3;
+  border-top: solid 1rpx #ddd;
+  position: fixed;
+  z-index: 20;
+  top: 100%;
+}
+.popup-layer.showLayer {
+  -webkit-transform: translate3d(0, -42vw, 0);
+          transform: translate3d(0, -42vw, 0);
+}
+.popup-layer .emoji-swiper {
+  height: 40vw;
+}
+.popup-layer .emoji-swiper swiper-item {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.popup-layer .emoji-swiper swiper-item view {
+  width: 12vw;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-layer .emoji-swiper swiper-item view image {
+  width: 8.4vw;
+  height: 8.4vw;
+}
+.popup-layer .more-layer {
+  width: 100%;
+  height: 42vw;
+}
+.popup-layer .more-layer .list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popup-layer .more-layer .list .box {
+  width: 18vw;
+  height: 18vw;
+  border-radius: 20rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3vw 2vw 3vw;
+}
+.popup-layer .more-layer .list .box .icon {
+  font-size: 70rpx;
+}
+.input-box {
+  width: 98%;
+  min-height: 100rpx;
+  padding: 0 1%;
+  background-color: #f2f2f2;
+  display: flex;
+  position: fixed;
+  z-index: 20;
+  bottom: -2rpx;
+  transition: all .15s linear;
+  border-bottom: solid 1rpx #ddd;
+}
+.input-box.showLayer {
+  -webkit-transform: translate3d(0, -42vw, 0);
+          transform: translate3d(0, -42vw, 0);
+}
+.input-box .voice, .input-box .more {
+  flex-shrink: 0;
+  width: 90rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box .send {
+  flex-shrink: 0;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.input-box .send .btn {
+  width: 90rpx;
+  height: 56rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f09b37, #eb632c);
+  color: #fff;
+  border-radius: 6rpx;
+  font-size: 24rpx;
+}
+.input-box .textbox {
+  width: 100%;
+  min-height: 70rpx;
+  margin-top: 15rpx;
+}
+.input-box .textbox .voice-mode {
+  width: calc(100% - 2rpx);
+  height: 68rpx;
+  border-radius: 70rpx;
+  border: solid 1rpx #cdcdcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  background-color: #fff;
+  color: #555;
+}
+.input-box .textbox .voice-mode.recording {
+  background-color: #e5e5e5;
+}
+.input-box .textbox .text-mode {
+  width: 100%;
+  min-height: 70rpx;
+  display: flex;
+  background-color: #fff;
+  border-radius: 40rpx;
+}
+.input-box .textbox .text-mode .box {
+  width: 100%;
+  padding-left: 30rpx;
+  min-height: 70rpx;
+  display: flex;
+  align-items: center;
+}
+.input-box .textbox .text-mode .box textarea {
+  width: 100%;
+}
+.input-box .textbox .text-mode .em {
+  flex-shrink: 0;
+  width: 80rpx;
+  padding-left: 10rpx;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.record {
+  width: 40vw;
+  height: 40vw;
+  position: fixed;
+  top: 55%;
+  left: 30%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20rpx;
+}
+.record .ing {
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@-webkit-keyframes volatility {
+0% {
+    background-position: 0% 130%;
+}
+20% {
+    background-position: 0% 150%;
+}
+30% {
+    background-position: 0% 155%;
+}
+40% {
+    background-position: 0% 150%;
+}
+50% {
+    background-position: 0% 145%;
+}
+70% {
+    background-position: 0% 150%;
+}
+80% {
+    background-position: 0% 155%;
+}
+90% {
+    background-position: 0% 140%;
+}
+100% {
+    background-position: 0% 135%;
+}
+}
+@keyframes volatility {
+0% {
+    background-position: 0% 130%;
+}
+20% {
+    background-position: 0% 150%;
+}
+30% {
+    background-position: 0% 155%;
+}
+40% {
+    background-position: 0% 150%;
+}
+50% {
+    background-position: 0% 145%;
+}
+70% {
+    background-position: 0% 150%;
+}
+80% {
+    background-position: 0% 155%;
+}
+90% {
+    background-position: 0% 140%;
+}
+100% {
+    background-position: 0% 135%;
+}
+}
+.record .ing .icon {
+  background-image: linear-gradient(to bottom, #f09b37, #fff 50%);
+  background-size: 100% 200%;
+  -webkit-animation: volatility 1.5s ease-in-out -1.5s infinite alternate;
+          animation: volatility 1.5s ease-in-out -1.5s infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150rpx;
+  color: #f09b37;
+}
+.record .cancel {
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.record .cancel .icon {
+  color: #fff;
+  font-size: 150rpx;
+}
+.record .tis {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #fff;
+}
+.record .tis.change {
+  color: #f09b37;
+}
+.content {
+  width: 100%;
+}
+.content .msg-list {
+  width: 96%;
+  padding: 0 2%;
+  position: absolute;
+  top: 0;
+  bottom: 100rpx;
+}
+.content .msg-list .loading {
+  display: flex;
+  justify-content: center;
+}
+@-webkit-keyframes stretchdelay {
+0%, 40%, 100% {
+    -webkit-transform: scaleY(0.6);
+            transform: scaleY(0.6);
+}
+20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+}
+}
+@keyframes stretchdelay {
+0%, 40%, 100% {
+    -webkit-transform: scaleY(0.6);
+            transform: scaleY(0.6);
+}
+20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+}
+}
+.content .msg-list .loading .spinner {
+  margin: 20rpx 0;
+  width: 60rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .msg-list .loading .spinner view {
+  background-color: #f06c7a;
+  height: 50rpx;
+  width: 6rpx;
+  border-radius: 6rpx;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+          animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.content .msg-list .loading .spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+.content .msg-list .loading .spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+}
+.content .msg-list .loading .spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+.content .msg-list .loading .spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+.content .msg-list .row {
+  padding: 20rpx 0;
+}
+.content .msg-list .row .system {
+  display: flex;
+  justify-content: center;
+}
+.content .msg-list .row .system view {
+  padding: 0 30rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9c9c9;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 40rpx;
+}
+.content .msg-list .row .system .red-envelope image {
+  margin-right: 5rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.content .msg-list .row:first-child {
+  margin-top: 20rpx;
+}
+.content .msg-list .row .my .left, .content .msg-list .row .other .right {
+  width: 100%;
+  display: flex;
+}
+.content .msg-list .row .my .left .bubble, .content .msg-list .row .other .right .bubble {
+  max-width: 70%;
+  min-height: 50rpx;
+  border-radius: 10rpx;
+  padding: 15rpx 20rpx;
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  word-break: break-word;
+}
+.content .msg-list .row .my .left .bubble.img, .content .msg-list .row .other .right .bubble.img {
+  background-color: transparent;
+  padding: 0;
+  overflow: hidden;
+}
+.content .msg-list .row .my .left .bubble.img image, .content .msg-list .row .other .right .bubble.img image {
+  max-width: 350rpx;
+  max-height: 350rpx;
+}
+.content .msg-list .row .my .left .bubble.red-envelope, .content .msg-list .row .other .right .bubble.red-envelope {
+  background-color: transparent;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+}
+.content .msg-list .row .my .left .bubble.red-envelope image, .content .msg-list .row .other .right .bubble.red-envelope image {
+  width: 250rpx;
+  height: 313rpx;
+}
+.content .msg-list .row .my .left .bubble.red-envelope .tis, .content .msg-list .row .other .right .bubble.red-envelope .tis {
+  position: absolute;
+  top: 6%;
+  font-size: 26rpx;
+  color: #9c1712;
+}
+.content .msg-list .row .my .left .bubble.red-envelope .blessing, .content .msg-list .row .other .right .bubble.red-envelope .blessing {
+  position: absolute;
+  bottom: 14%;
+  color: #e9b874;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.content .msg-list .row .my .left .bubble.voice .icon, .content .msg-list .row .other .right .bubble.voice .icon {
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.content .msg-list .row .my .left .bubble.voice .icon:after, .content .msg-list .row .other .right .bubble.voice .icon:after {
+  content: " ";
+  width: 53rpx;
+  height: 53rpx;
+  border-radius: 100%;
+  position: absolute;
+  box-sizing: border-box;
+}
+.content .msg-list .row .my .left .bubble.voice .length, .content .msg-list .row .other .right .bubble.voice .length {
+  font-size: 28rpx;
+}
+.content .msg-list .row .my .right, .content .msg-list .row .other .left {
+  flex-shrink: 0;
+  width: 80rpx;
+  height: 80rpx;
+}
+.content .msg-list .row .my .right image, .content .msg-list .row .other .left image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.content .msg-list .row .my {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .msg-list .row .my .left {
+  min-height: 80rpx;
+  align-items: center;
+  justify-content: flex-end;
+}
+.content .msg-list .row .my .left .bubble {
+  background-color: #f06c7a;
+  color: #fff;
+}
+.content .msg-list .row .my .left .bubble.voice .icon {
+  color: #fff;
+}
+.content .msg-list .row .my .left .bubble.voice .length {
+  margin-right: 20rpx;
+}
+@-webkit-keyframes my-play {
+0% {
+    -webkit-transform: translateX(80%);
+            transform: translateX(80%);
+}
+100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+}
+}
+@keyframes my-play {
+0% {
+    -webkit-transform: translateX(80%);
+            transform: translateX(80%);
+}
+100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+}
+}
+.content .msg-list .row .my .left .bubble.play .icon:after {
+  border-left: solid 10rpx rgba(240, 108, 122, 0.5);
+  -webkit-animation: my-play 1s linear infinite;
+          animation: my-play 1s linear infinite;
+}
+.content .msg-list .row .my .right {
+  margin-left: 15rpx;
+}
+.content .msg-list .row .other {
+  width: 100%;
+  display: flex;
+}
+.content .msg-list .row .other .left {
+  margin-right: 15rpx;
+}
+.content .msg-list .row .other .right {
+  flex-wrap: wrap;
+}
+.content .msg-list .row .other .right .username {
+  width: 100%;
+  height: 45rpx;
+  font-size: 24rpx;
+  color: #999;
+  display: flex;
+}
+.content .msg-list .row .other .right .username .name {
+  margin-right: 50rpx;
+}
+.content .msg-list .row .other .right .bubble {
+  background-color: #fff;
+  color: #333;
+}
+.content .msg-list .row .other .right .bubble.voice .icon {
+  color: #333;
+}
+.content .msg-list .row .other .right .bubble.voice .length {
+  margin-left: 20rpx;
+}
+@-webkit-keyframes other-play {
+0% {
+    -webkit-transform: translateX(-80%);
+            transform: translateX(-80%);
+}
+100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+}
+}
+@keyframes other-play {
+0% {
+    -webkit-transform: translateX(-80%);
+            transform: translateX(-80%);
+}
+100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+}
+}
+.content .msg-list .row .other .right .bubble.play .icon:after {
+  border-right: solid 10rpx rgba(255, 255, 255, 0.8);
+  -webkit-animation: other-play 1s linear infinite;
+          animation: other-play 1s linear infinite;
+}
+.windows .mask {
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity .2s ease-out;
+}
+.windows .layer {
+  position: fixed;
+  width: 80%;
+  height: 70%;
+  left: 10%;
+  z-index: 1001;
+  border-radius: 20rpx;
+  overflow: hidden;
+  top: 100%;
+  -webkit-transform: scale3d(0.5, 0.5, 1);
+          transform: scale3d(0.5, 0.5, 1);
+  transition: all .2s ease-out;
+}
+.windows.show {
+  display: block;
+}
+.windows.show .mask {
+  top: 0;
+  opacity: 1;
+}
+.windows.show .layer {
+  -webkit-transform: translate3d(0, -85vh, 0) scale3d(1, 1, 1);
+          transform: translate3d(0, -85vh, 0) scale3d(1, 1, 1);
+}
+.windows.hide {
+  display: block;
+}
+.windows.hide .mask {
+  top: 0;
+  opacity: 0;
+}
+.open-redenvelope {
+  width: 100%;
+  height: 70vh;
+  background-color: #cf3c35;
+  position: relative;
+}
+.open-redenvelope .top {
+  width: 100%;
+  background-color: #fe5454;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 0 0 100% 100%;
+  box-shadow: inset 0 -20rpx 0 #9c1712;
+  margin-bottom: 65rpx;
+}
+.open-redenvelope .top .close-btn {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30rpx;
+}
+.open-redenvelope .top .close-btn .icon {
+  color: #9c1712;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+.open-redenvelope .top image {
+  width: 130rpx;
+  height: 130rpx;
+  border: solid 12rpx #cf3c35;
+  border-radius: 100%;
+  margin-bottom: -65rpx;
+}
+.open-redenvelope .from, .open-redenvelope .blessing, .open-redenvelope .money, .open-redenvelope .showDetails {
+  width: 90%;
+  padding: 5rpx 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 32rpx;
+  color: #fff;
+}
+.open-redenvelope .money {
+  font-size: 100rpx;
+  color: #f8d757;
+  display: flex;
+  padding-top: 20rpx;
+}
+.open-redenvelope .showDetails {
+  position: absolute;
+  bottom: 20rpx;
+  align-items: center;
+  font-size: 28rpx;
+  color: #f8d757;
+}
+.open-redenvelope .showDetails .icon {
+  font-size: 26rpx;
+  color: #f8d757;
+}
+

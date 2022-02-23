@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/community/index",
+    "pages/user/my",
+    "pages/home/detail",
+    "pages/find/index",
+    "pages/find/detail",
+    "pages/home/add",
+    "pages/find/add",
+    "pages/community/add",
+    "pages/community/detail",
+    "pages/cyclopedia/index",
+    "pages/cyclopedia/detail",
+    "pages/other/card",
+    "pages/path/adoptPath",
+    "pages/user/user",
+    "pages/article/index",
+    "pages/article/detail",
+    "pages/author/index",
+    "pages/chat/index",
+    "pages/chat/detail",
+    "pages/user/follow",
+    "pages/user/login",
+    "pages/user/register",
+    "pages/other/answer",
+    "pages/other/answer-record",
+    "pages/user/collect",
+    "pages/map/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#000000",
+    "selectedColor": "#ffaa00",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabber/home.png",
+        "text": "领养",
+        "selectedIconPath": "static/tabber/home_selected.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "static/tabber/find-pet.png",
+        "text": "寻宠",
+        "selectedIconPath": "static/tabber/find-pet_selected.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "iconPath": "static/tabber/circle.png",
+        "text": "宠物社区",
+        "selectedIconPath": "static/tabber/circle_selected.png"
+      },
+      {
+        "pagePath": "pages/user/my",
+        "iconPath": "static/tabber/my.png",
+        "text": "我的",
+        "selectedIconPath": "static/tabber/my_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

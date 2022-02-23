@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/axb-checkbox/axb-checkbox-item"],{"1e49":function(t,e,n){"use strict";var u=n("4bc0"),a=n.n(u);a.a},"303a":function(t,e,n){"use strict";n.r(e);var u=n("a228"),a=n("8b0c");for(var r in a)"default"!==r&&function(t){n.d(e,t,(function(){return a[t]}))}(r);n("1e49");var c,o=n("f0c5"),i=Object(o["a"])(a["default"],u["b"],u["c"],!1,null,null,null,!1,u["a"],c);e["default"]=i.exports},4529:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u=function(t,e,n){var u,a,r,c,o=function o(){var i=(new Date).getTime(),l=i-a;l<e&&l>=0?(clearTimeout(u),u=setTimeout(o,e-l)):(clearTimeout(u),u=null,n||(t.apply(r,c),u||(r=c=null)))};return function(){r=this,c=arguments,a=(new Date).getTime();var i=n&&!u;u||(u=setTimeout(o,e)),i&&(t.apply(r,c),r=c=null)}},a={props:{name:{type:String,default:""},value:{default:null},checked:{type:[Boolean,Number],default:!1}},computed:{widthDefault:function(){return this.name.length<=3},activeStyle:function(){return"background: #ffaa00;color: #FFFFFF;border-color: #ffaa00;"},itemStyle:function(){return"background: #f7f7f7;color: #7d7d7d;"}},data:function(){return{}},methods:{handleChange:u(r,200,!0)}};function r(){this.$emit("change",this.value)}e.default=a},"4bc0":function(t,e,n){},"8b0c":function(t,e,n){"use strict";n.r(e);var u=n("4529"),a=n.n(u);for(var r in u)"default"!==r&&function(t){n.d(e,t,(function(){return u[t]}))}(r);e["default"]=a.a},a228:function(t,e,n){"use strict";var u;n.d(e,"b",(function(){return a})),n.d(e,"c",(function(){return r})),n.d(e,"a",(function(){return u}));var a=function(){var t=this,e=t.$createElement;t._self._c},r=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/axb-checkbox/axb-checkbox-item-create-component',
+    {
+        'components/axb-checkbox/axb-checkbox-item-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("303a"))
+        })
+    },
+    [['components/axb-checkbox/axb-checkbox-item-create-component']]
+]);

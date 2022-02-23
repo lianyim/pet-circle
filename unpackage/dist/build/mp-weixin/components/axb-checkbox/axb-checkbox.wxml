@@ -1,0 +1,1 @@
+<view class="style-flex style-flex-wrap"><block wx:for="{{items}}" wx:for-item="item" wx:for-index="idx" wx:key="idx"><filter-radio-item vue-id="{{'a5b0c03c-1-'+idx}}" name="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}" data-event-opts="{{[['^change',[['radioChange']]]]}}" bind:change="__e" bind:__l="__l"></filter-radio-item></block></view>

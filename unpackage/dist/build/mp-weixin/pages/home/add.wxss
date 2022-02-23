@@ -1,0 +1,9 @@
+.content{padding:15rpx}.imgView{width:240rpx;height:240rpx;background-color:#f1f1f1;display:flex;border-radius:10rpx;margin-top:20rpx}.imgView image{width:80rpx;height:80rpx;align-self:center;margin:0 auto}.preImage{margin-left:-20rpx;margin-top:20rpx}.preImage image{width:160rpx;height:160rpx;border-radius:16rpx}.preImage .addView{width:160rpx;height:160rpx;display:flex;margin-left:20rpx}.preImage .addView image{width:80rpx;height:80rpx;align-self:center;margin:0 auto}.nicknameView,
+.phoneView,
+.titleView{margin-top:20rpx}.nicknameView input,
+.phoneView input,
+.titleView input{font-size:24rpx}.typeView,
+.sexView,
+.bodyView,
+.ageView,
+.conditionView{margin-left:-20rpx;margin-top:20rpx}.city-view .city{display:inline-block;height:50rpx;line-height:50rpx;padding:0 22rpx;border-radius:8rpx;font-size:22rpx;box-sizing:border-box;margin-top:20rpx;background:#f7f7f7}.contentView textarea{margin-top:20rpx;font-size:24rpx;background-color:#f8f8f8;width:90%;margin:0 auto;padding:20rpx;margin-top:20rpx;border-radius:10rpx}.bottom-view{width:100%;height:100rpx;display:flex;align-items:center}.bottom-view .confirm-btn{float:left;border-radius:40rpx;background-color:#f8a323;width:80%;height:84rpx;line-height:84rpx;color:#fff;font-size:28rpx}

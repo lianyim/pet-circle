@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: 100%;
+  background-color: #ececec;
+}
+.content {
+  height: 100%;
+  background-color: #ececec;
+  padding-bottom: 40rpx;
+}
+.top-img-view {
+  background-image: url(https://pet-life.oss-cn-beijing.aliyuncs.com/images/other/login_background.png);
+  width: 100%;
+  height: 360rpx;
+}
+.main-view {
+  width: 92%;
+  height: 1000rpx;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  margin-top: -40rpx;
+  box-shadow: 0 0 2rpx 2rpx #FFFFFF;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.main-view .loading-view {
+  text-align: center;
+  font-size: 30rpx;
+  color: #ffaa00;
+}
+.main-view .my-view {
+  padding: 40rpx;
+  font-size: 30rpx;
+}
+.main-view .my-view .my-answer {
+  float: left;
+}
+.main-view .my-view .record {
+  float: right;
+}
+.main-view .title-view {
+  text-align: center;
+  font-size: 28rpx;
+  color: #acacac;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+.main-view .subject-view {
+  font-size: 32rpx;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 50rpx;
+}
+.main-view .option-view {
+  margin-top: 200rpx;
+}
+.main-view .option-view button {
+  width: 80%;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+  margin-top: 40rpx;
+}
+.main-view .bottom-view {
+  position: absolute;
+  bottom: 20rpx;
+  left: 40%;
+  font-size: 28rpx;
+  color: #bfbfbf;
+}
+
