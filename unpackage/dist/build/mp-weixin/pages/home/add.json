@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "发布领养",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "chose-city": "/components/chose-city/chose-city",
-    "axb-check-box": "/components/axb-checkbox/axb-checkbox"
-  }
-}

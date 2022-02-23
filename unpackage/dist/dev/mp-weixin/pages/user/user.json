@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "个人主页",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "axb-check-box": "/components/axb-checkbox/axb-checkbox"
-  }
-}

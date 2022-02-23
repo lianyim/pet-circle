@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "宠物圈",
-  "usingComponents": {
-    "chose-city": "/components/chose-city/chose-city"
-  }
-}

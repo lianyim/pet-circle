@@ -1,1 +1,0 @@
-<view class="content"><video style="width:100%;" src="{{videoUrl}}" show-mute-btn="{{true}}" enable-play-gesture="{{true}}"></video></view>

@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "领养流程",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "axb-check-box": "/components/axb-checkbox/axb-checkbox"
-  }
-}

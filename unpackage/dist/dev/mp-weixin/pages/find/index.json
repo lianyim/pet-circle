@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "寻宠",
-  "usingComponents": {
-    "chose-city": "/components/chose-city/chose-city",
-    "hpy-form-select": "/uni_modules/hpy-form-select/components/hpy-form-select/hpy-form-select"
-  }
-}
