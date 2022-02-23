@@ -112,7 +112,7 @@
 				city: "全国",
 				dataList: [],
 				// 微信小商店
-				appId: "wxb960de1afae3ab9c",
+				appId: "xxxxxxxx",
 				urlPath: "/pages/index/index"
 			}
 		},
