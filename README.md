@@ -23,7 +23,9 @@
 - jwt
 
 ### 小程序截图
-|<img src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg"></img>|<img src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg"></img>|<img src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg"></img>|<img src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg"></img>|
+<div style="width: 100%;">
+    <img style="width: 30%;" src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg"></img>
+</div>
 
 ### 联系作者
  **微信：TL07061030** 
