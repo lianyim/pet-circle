@@ -23,8 +23,7 @@
 - jwt
 
 ### 小程序截图
-https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg
-|![输入图片说明](https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg)|![输入图片说明](imgs/8F0E8E9BD0189F07233759EC0D5ACC1E.jpg)|![输入图片说明](imgs/74C88C49D11715596A493C9F355A0BDA.jpg)|![输入图片说明](imgs/CCB0B465E7899C177114BF637855005D.jpg)|
+|https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg|https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg|https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg|https://gitee.com/lianyiming/pet-life/raw/master/imgs/DF3D15EF052DDC53674240C6940FD8A4.jpg|
 |---|---|---|---|
 |![输入图片说明](imgs/950B1BCB0D7BC2F8B768B40003C445FE.jpg)|![输入图片说明](imgs/C5DA1D858766518EDDA70213B0209389.jpg)|![输入图片说明](imgs/0DBA62F1FFCFF7ADE136AEB365D6B4C6%20-%20%E5%89%AF%E6%9C%AC.jpg)|![输入图片说明](imgs/3C2B0636550EBEF8070EFECD45C52AEF.jpg)|
 |---|---|---|---|
