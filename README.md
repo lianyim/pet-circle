@@ -50,4 +50,4 @@
 
  **演示小程序** 
 
-<img style="width: 30%;" src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/tybxcx.png"></img>
+<img style="width: 25%;" src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/tybxcx.png"></img>
