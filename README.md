@@ -4,6 +4,7 @@
     主要功能有：
         宠物领养、寻宠、宠物社区、签到答题、对话咨询等。
 
+gitee地址：https://gitee.com/lianyiming/pet-life.git
 ### 核心技术
 #### 依赖
 - mysql5.7
