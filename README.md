@@ -46,9 +46,6 @@ gitee地址：https://gitee.com/lianyiming/pet-life.git
 ### 联系作者
  **微信：TL07061030** （备注github）
 
-需要前后端源码联系作者
+需要前后端源码，关注公众号 "扬帆起航"，回复 "8001" 领取！
 
-
- **演示小程序** 
-
-<img style="width: 25%;" src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/tybxcx.png"></img>
+<img style="width: 70%;" src="https://gitee.com/lianyiming/pet-life/raw/master/imgs/gzh.png"></img>
